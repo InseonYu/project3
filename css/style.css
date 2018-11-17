@@ -207,6 +207,15 @@ body{
   text-align: center; 
 } 
   
+.slideshow {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.slideshow ul{
+  margin:0;
+}
+
 .cos_box2{ 
   width: 90%; 
   margin: 20px 20px 20px 20px;
