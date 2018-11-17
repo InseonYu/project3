@@ -1,0 +1,312 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+body{
+   line-height: 1;
+}
+ol, ul{
+   list-style: none;
+}
+blockquote, q{
+   quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after{
+   content: '';
+   content: none;
+}
+table{
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+  /*common*/ 
+  
+body{ 
+  background-color: #edf0ff; 
+  line-height: 1; 
+} 
+  
+.menu{	 
+  background-color: #b6c1f9;  
+  height:50px; 
+  width:100%; 
+  position: fixed;
+  margin: 0%; 
+  top: 0;  
+}  
+  
+.menu a{  
+  display: block;  
+  color: #050d30;  
+  text-align: center;  
+  align-content: center; 
+  padding: 10px 16px; 
+  text-decoration: none;  
+  font-family: 'Righteous', cursive;
+  font-size: 30px; 
+} 
+ 
+.menu a:hover{ 
+  background-color: #50abe0
+}   
+
+.menu ul{ 
+  margin:0; 
+  text-align:center; 
+} 
+  
+.menu li{ 
+  display: inline-block; 
+} 
+
+.center{ 
+  text-align: center; 
+} 
+ 
+.footer{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #b6c1f9;
+  color: #050d30; 
+  font-family: 'Righteous', cursive;
+  font-size: 30px; 
+  text-align: center;
+} 
+ 
+  /*index*/ 
+    
+.my_title1{ 
+  text-align: center; 
+  margin-top: 60px; 
+  margin-bottom: 50px; 
+  font-family: 'Righteous', cursive; 
+  font-size: 60px;  
+} 
+    
+.s_title1{ 
+  text-align: center; 
+  margin-top: 60px; 
+  margin-bottom: 30px; 
+  font-family: 'Lobster', cursive;
+  font-size: 45px; 
+  color: #050d54;
+}    
+ 
+.idx_box{ 
+  width: 90%;  
+  padding: 10px;
+  border: 5px solid #1f81ba;
+  border-top-left-radius: 30px;
+  box-shadow: 20px 20px 50px #1f81ba;
+  margin: 30px 30px 30px 30px; 	
+  font-family: 'Josefin Sans', sans-serif; 
+  font-size: 25px; 
+  text-align: center; 
+} 
+  
+.idx_box2{ 
+  float: none;
+  width: 90%; 
+  padding: 10px; 		
+  border: 5px solid #4c5bdb;
+  border-top-left-radius: 30px;
+  box-shadow: 20px 20px 50px #4c5bdb;	
+  margin: 30px 30px 30px 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px; 
+  text-align: center; 
+} 
+  
+.idx_box3{ 
+  float: none;
+  width: 90%; 
+  padding: 10px; 	
+  border: 5px solid #b177ef;
+  border-top-left-radius: 30px;	
+  box-shadow: 20px 20px 50px #b177ef;
+  margin: 30px 30px 30px 30px;	
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px; 
+  text-align: center; 
+} 
+    
+.idx_box3 .video_class{
+  width: 50%;
+  height: 50%;
+}
+  
+  /*resume*/ 
+  
+.my_title2{ 
+  text-align: left; 
+  margin-top: 80px; 
+  margin-bottom: 50px; 
+  margin-left : 50px;
+  font-family: 'Anton', sans-serif;
+  font-size: 60px;  
+} 
+  
+.s_title2{ 
+  text-align: left; 
+  margin-top: 40px; 
+  margin-bottom: 30px; 
+  margin-left : 50px;
+  font-family: 'Anton', sans-serif;
+  font-size: 40px; 
+  color: #0e275b; 
+} 
+ 
+.res_box{ 
+  text-align: left;
+  margin-left : 50px;  
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px; 
+  margin-right: 20px; 
+} 
+  
+.res_box2{ 
+  text-align: left;
+  margin-left : 50px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px; 
+  margin-right: 20px;  
+}
+ 
+.res_box3{ 
+  text-align: left;
+  margin-left : 50px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px; 
+  margin-right: 20px; 
+} 
+   
+.res_box4{ 
+  text-align: left;
+  margin-left : 50px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px; 
+  margin-right: 20px;   
+}   
+
+/*cosmetics*/ 
+    
+.my_title1{ 
+  text-align: center; 
+  margin-top: 80px; 
+  margin-bottom: 50px; 
+  font-family: 'Righteous', cursive; 
+  font-size: 60px;  
+} 
+    
+.s_title3{ 
+  text-align: center; 
+  margin-top: 40px; 
+  margin-bottom: 30px; 
+  font-family: 'Lobster Two', cursive;
+  font-size: 40px; 
+  color: #050d54;
+} 
+
+.cos_box{
+  float: none;	
+  width: 90%; 
+  margin: 20px 20px 20px 20px;
+  background: #fce0fa;  	
+  padding: 20px; 
+  border-top: 10px double #ff8cb0;
+  border-bottom: 10px double #ff8cb0;
+  border-radius: 10%; 	
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px; 
+  text-align: center; 
+} 
+  
+.cos_box2{ 
+  width: 90%; 
+  margin: 20px 20px 20px 20px;
+  background: #ffd2aa;	
+  padding: 20px;
+  border-top: 10px double #ff9b42; 
+  border-bottom: 10px double #ff9b42;
+  border-radius: 10%; 	 	
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px; 
+  text-align: center; 
+} 
+  
+.cos_box2 ul{ 
+  list-style: none; 
+} 
+  
+.cos_box3{
+  float: none;	
+  width: 90%; 
+  margin: 20px 20px 20px 20px;
+  background: #f2ffc1;	
+  padding: 20px; 
+  border-top: 10px double #88ff84;  
+  border-bottom: 10px double #88ff84;
+  border-radius: 10%; 	 	
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px; 
+  text-align: center; 
+} 
+  
+.cos_box4{
+  float: none;	
+  width: 90%; 
+  margin: 20px 20px 20px 20px;
+  background: #a8ccff;	
+  padding: 20px; 
+  border-top: 10px double #3d83e5; 
+  border-bottom: 10px double #3d83e5;	
+  border-radius: 10%; 	
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px; 
+  text-align: center; 
+} 
+  
+.cos_box4 ul{ 
+  list-style: none; 
+} 
+  
+.cos_box5{ 
+  width: 90%; 
+  margin: 20px 20px 20px 20px;
+  background: #ecbcff;	
+  padding: 20px;
+  border-top: 10px double #cd51ff; 
+  border-bottom: 10px double #cd51ff;
+  border-radius: 10%; 		
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px; 
+  text-align: center; 
+} 
