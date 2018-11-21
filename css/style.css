@@ -211,7 +211,8 @@ body{
   border-radius: 10%; 	
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px; 
-  text-align: center; 
+  text-align: center;
+  line-height: 150%    
 } 
   
 .slideshow {
@@ -233,7 +234,8 @@ body{
   border-radius: 10%; 	 	
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px; 
-  text-align: center; 
+  text-align: center;
+  line-height: 150%    
 } 
   
 .cos_box2 ul{ 
@@ -251,7 +253,8 @@ body{
   border-radius: 10%; 	 	
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px; 
-  text-align: center; 
+  text-align: center;
+  line-height: 150%    
 } 
   
 .cos_box4{
@@ -265,7 +268,8 @@ body{
   border-radius: 10%; 	
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px; 
-  text-align: center; 
+  text-align: center;
+  line-height: 150%    
 } 
   
 .cos_box4 ul{ 
@@ -282,5 +286,6 @@ body{
   border-radius: 10%; 		
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px; 
-  text-align: center; 
+  text-align: center;
+  line-height: 150%    
 } 
