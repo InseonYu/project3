@@ -148,6 +148,7 @@ body{
   font-family: 'Oswald', sans-serif;
   font-size: 20px; 
   margin-right: 20px; 
+  line-height: 200%
 } 
   
 .res_box2{ 
@@ -156,6 +157,7 @@ body{
   font-family: 'Oswald', sans-serif;
   font-size: 20px; 
   margin-right: 20px;  
+  line-height: 200%
 }
  
 .res_box3{ 
@@ -163,7 +165,8 @@ body{
   margin-left : 10%;
   font-family: 'Oswald', sans-serif;
   font-size: 20px; 
-  margin-right: 20px; 
+  margin-right: 20px;
+  line-height: 200%  
 } 
    
 .res_box4{ 
@@ -171,7 +174,8 @@ body{
   margin-left : 10%;
   font-family: 'Oswald', sans-serif;
   font-size: 20px; 
-  margin-right: 20px;   
+  margin-right: 20px;
+  line-height: 200%  
 }   
 
 /*cosmetics*/ 
