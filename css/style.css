@@ -87,7 +87,8 @@ body{
   margin: 30px 30px 30px 30px; 	
   font-family: 'Josefin Sans', sans-serif; 
   font-size: 25px; 
-  text-align: center; 
+  text-align: center;
+  line-height: 150%  
 } 
   
 .idx_box2{ 
@@ -100,7 +101,8 @@ body{
   margin: 30px 30px 30px 30px;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 25px; 
-  text-align: center; 
+  text-align: center;
+  line-height: 150%    
 } 
   
 .idx_box3{ 
@@ -113,7 +115,8 @@ body{
   margin: 30px 30px 30px 30px;	
   font-family: 'Josefin Sans', sans-serif;
   font-size: 25px; 
-  text-align: center; 
+  text-align: center;
+  line-height: 150%    
 } 
     
 .idx_box3 .video_class{
