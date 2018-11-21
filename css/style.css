@@ -143,7 +143,17 @@ body{
   font-family: 'Anton', sans-serif;
   font-size: 40px; 
   color: #0e275b; 
-} 
+}
+
+.s_title4{ 
+  text-align: left; 
+  margin-top: 40px; 
+  margin-bottom: 30px; 
+  margin-left : 5px;
+  font-family: 'Anton', sans-serif;
+  font-size: 20px; 
+  color: #0e275b; 
+}  
  
 .res_box{ 
   text-align: left;
