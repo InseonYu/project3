@@ -127,7 +127,7 @@ body{
   text-align: left; 
   margin-top: 80px; 
   margin-bottom: 50px; 
-  margin-left : 50px;
+  margin-left : 5%;
   font-family: 'Anton', sans-serif;
   font-size: 60px;  
 } 
@@ -136,7 +136,7 @@ body{
   text-align: left; 
   margin-top: 40px; 
   margin-bottom: 30px; 
-  margin-left : 50px;
+  margin-left : 5%;
   font-family: 'Anton', sans-serif;
   font-size: 40px; 
   color: #0e275b; 
@@ -144,7 +144,7 @@ body{
  
 .res_box{ 
   text-align: left;
-  margin-left : 50px;  
+  margin-left : 10%;  
   font-family: 'Oswald', sans-serif;
   font-size: 20px; 
   margin-right: 20px; 
@@ -152,7 +152,7 @@ body{
   
 .res_box2{ 
   text-align: left;
-  margin-left : 50px;
+  margin-left : 10%;
   font-family: 'Oswald', sans-serif;
   font-size: 20px; 
   margin-right: 20px;  
@@ -160,7 +160,7 @@ body{
  
 .res_box3{ 
   text-align: left;
-  margin-left : 50px;
+  margin-left : 10%;
   font-family: 'Oswald', sans-serif;
   font-size: 20px; 
   margin-right: 20px; 
@@ -168,7 +168,7 @@ body{
    
 .res_box4{ 
   text-align: left;
-  margin-left : 50px;
+  margin-left : 10%;
   font-family: 'Oswald', sans-serif;
   font-size: 20px; 
   margin-right: 20px;   
